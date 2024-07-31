@@ -34,8 +34,9 @@ This is a script of a chat-bot that answers questions about the Amazon Returns P
    ```sh
     python telebot.py
     ```   
-   
-6. **Sample query for demonstration**
+6. Open the Telegram channel to which this bot is attached, and type the command `/start` in the message input field.  
+
+7. **Sample questions for demonstration**
 
    ```sh
    What is Amazon's return policy for electronics?
