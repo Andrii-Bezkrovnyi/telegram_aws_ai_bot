@@ -1,6 +1,5 @@
 # AWS AI BOT
-This is a script of a chat-bot that answers questions about the Amazon Returns Policies document and communicate with user via console.
-
+This is a script of a chat-bot that answers questions about the Amazon Returns Policies document and communicate with user via telegram.
 
 ## How Setup and Execution code
 
@@ -26,13 +25,14 @@ This is a script of a chat-bot that answers questions about the Amazon Returns P
    Create a .env file in the project directory with the following content:
 
     ```
-   OPENAI_API_KEY: OPENAI_API_KEY: The api key of your openai account
+   OPENAI_API_KEY: The api key of your openai account.
+   TELEGRAM_BOT_TOKEN: The token of your telegram bot creating via you account.
     ```
 
 5. **Start the ASW AI BOT via script and communicate with bot via console**:
     
    ```sh
-    python app.py
+    python telebot.py
     ```   
    
 6. **Sample query for demonstration**
